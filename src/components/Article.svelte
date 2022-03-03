@@ -25,6 +25,7 @@
 
     h3 {
         font-size: 2em;
+        padding: 10px;
     }
 
     p {
