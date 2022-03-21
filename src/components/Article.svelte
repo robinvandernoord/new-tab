@@ -14,7 +14,7 @@
     }
 
     let body = ellipse(
-        strip_html(article.body).replace('\n', '<br/><br/>')
+        strip_html(article.body || "").replace('\n', '<br/><br/>')
         , 500);
 </script>
 
